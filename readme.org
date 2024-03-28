@@ -1,0 +1,11 @@
+* Projectname
+Describe the project
+** Installation
+To start using this template run
+#+begin_src shell
+  direnv allow
+  nimble init projectname
+#+end_src
+** Usage
+* LICENCE
+[[https://choosealicense.com/licenses/mit/][MIT]]

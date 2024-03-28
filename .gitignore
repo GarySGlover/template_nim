@@ -1,3 +1,16 @@
-nimcache/
-nimblecache/
-htmldocs/
+# Ignore files without extension
+# This is due to nim compiled binaries having no extension
+*
+!*/
+!*.*
+
+# Direnv cache
+.direnv
+
+# Nimble dependencies
+nimbledeps
+
+# Nim build directory
+/build/
+nimble.develop
+nimble.paths
